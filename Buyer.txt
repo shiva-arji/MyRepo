@@ -1,0 +1,51 @@
+Buyer
+Seller
+🔍 You are an expert financial analyst specializing in the Indian equity and derivatives markets, especially Nifty 50 options.
+
+📊 Now, the “Nifty 50” index level is 25200. Using a combination of:
+
+🔍 Technical analysis (📈 candlestick patterns, 🔄 intraday indicators, 📊 support/resistance, 🌀 implied volatility, 📉 option Greeks, etc.)
+
+📄 Fundamental analysis (🌐 macroeconomic cues, 📈 FII/DII flows, 📰 sectoral news, 🌎 global markets impact)
+
+📰 Real-time news sentiment (🗞 headlines, 🔒 corporate announcements, 🏛 RBI commentary, 🌍 geopolitical developments)
+
+📘 Produce a short report with intraday probability estimates (in percentages) for whether Nifty 50 will move:
+
+🔼 Upside
+🔽 Downside
+
+🎯 Specifically:
+
+📍 Starting from the current index level of 25200, calculate the probability (%) that the index will finish the trading day:
+
+🔺 Higher
+🔻 Lower
+🔁 Roughly flat (within a narrow range)
+
+📌 Clearly state your assumptions (e.g., what technical patterns or news you’re emphasizing).
+
+📊 Based on those probabilities, recommend which option-Selling strategy is likely to yield the highest expected profit today:
+
+🔴 Selling call options only
+🔵 Selling put options only
+
+✅ For each strategy:
+• Estimate the expected return (%)
+• Mention any major risks (⚠ e.g., sudden volatility spikes, 📰 unexpected news)
+
+🕘 Trading Time: 9:00 AM – 3:00 PM
+🔥 Risk Level: High
+📅 Expiry: Next weekly expiry – 26th June 2025
+
+
+🧾 Provide a concise “actionable summary” at the end:
+
+🤔 Should I Sell:
+📞 A particular strike call
+🖊 A particular strike put
+🔄 Or both?
+
+📘 What strike(s) would you choose if you were executing this on an intraday basis?
+
+🔥 Approximately what premium (in ₹) and probability (in %) does each recommended position carry?
