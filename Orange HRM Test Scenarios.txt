@@ -1,0 +1,75 @@
+Login page Test Scenarios
+
+| Test Case ID | Scenario Description                                      | Expected Result                                      |
+|--------------|-----------------------------------------------------------|------------------------------------------------------|
+| TC_Login_01  | Login with valid credentials                              | User should be redirected to the dashboard           |
+| TC_Login_02  | Login with invalid username                               | Error message: "Invalid credentials" should appear   |
+| TC_Login_03  | Login with invalid password                               | Error message: "Invalid credentials" should appear   |
+| TC_Login_04  | Login with empty username and password                    | Error message: "Required" should appear              |
+| TC_Login_05  | Login with only username                                  | Error message "Required" should appear               |
+| TC_Login_06  | Login with only password                                  | Error message "Required" should appear               |
+| TC_Login_07  | Check password masking                                    | Password field should hide typed characters          |
+| TC_Login_08  | Verify "Forgot your password?" link                       | Should redirect to password recovery page            |
+| TC_Login_09  | Check login page UI elements (logo, fields, buttons)      | All elements should be visible and functional        |
+
+Employee Management – Test Scenarios
+
+View Employees
+
+| Test Case ID | Scenario Description                              | Expected Result                                      	|
+|--------------|---------------------------------------------------|------------------------------------------------------------|
+| TC_Emp_01    | Navigate to Employee List                         | Employee list should be displayed                    	|
+| TC_Emp_02    | Search employee by name                           | Matching employee record should appear               	|
+| TC_Emp_03    | Search employee by ID                             | Matching employee record should appear               	|
+| TC_Emp_04    | Search with invalid data                          | "No Records Found" message should appear             	|
+| TC_Emp_05    | Reset button functionality in the search option   | Search data should erase and default page should display   |
+| TC_Emp_06    | Verify the employment status dropdown             | List of employment status should display and show the      |
+|	       |						   |  employees as per the filter     				|
+| TC_Emp_07    | Verify the include dropdown in employee list      | List of include options should display and show the        |
+|	       |						   |  employees as per the filter     				|
+| TC_Emp_08    | Verify the Job Title dropdown in employee list    | List of job title options should display and show the      |
+|	       |						   |  employees as per the filter     				|
+| TC_Emp_09    | Verify the Sub Unit dropdown in employee list     | List of Sub Unit options should display and show the       |
+|	       |						   |  employees as per the filter     				|
+| TC_Emp_10    | Verify the Hide and expand button of employee     | Employee information section should hide and expand when   |
+|	       | information					   | user click on it.     				        |
+| TC_Emp_11    | Verify the sort header options of employee list   | Sort options should work as expected when clicked on them  | 
+
+
+Update Employee Details
+
+| Test Case ID | Scenario Description                              | Expected Result                                      |
+|--------------|---------------------------------------------------|------------------------------------------------------|
+| TC_Emp_11    | Click on the employee row                         | Employee details page should open with details       |
+| TC_Emp_12    | Edit employee personal details                    | Changes should be saved and reflected                |
+| TC_Emp_12    | Edit employee Contact details                     | Changes should be saved and reflected                |
+| TC_Emp_12    | Edit employee Dependents details                  | Changes should be saved and reflected                |
+| TC_Emp_12    | Edit employee Immigration details                 | Changes should be saved and reflected                |
+| TC_Emp_13    | Edit job details (title, department)              | Updated job info should be saved                     |
+| TC_Emp_14    | Edit Emergency contact details                    | Updated contact info should be saved                 |
+| TC_Emp_12    | Edit employee Salary details                      | Changes should be saved and reflected                |
+| TC_Emp_12    | Edit employee Report to details                   | Changes should be saved and reflected                |
+| TC_Emp_12    | Edit employee Qualification details               | Changes should be saved and reflected                |
+| TC_Emp_12    | Edit employee Membership details                  | Changes should be saved and reflected                |
+| TC_Emp_16    | Cancel update operation                           | No changes should be saved                           |
+
+
+Delete Employee
+
+| Test Case ID | Scenario Description                              | Expected Result                                      |
+|--------------|---------------------------------------------------|------------------------------------------------------|
+| TC_Emp_11    | Delete an employee record                         | Record should be removed from the list               |
+| TC_Emp_11    | Select multiple row and Delete                    | Multiple Records should be removed from the list     |
+| TC_Emp_12    | Cancel delete operation                           | Record should remain unchanged                       |
+| TC_Emp_14    | Verify confirmation popup before deletion         | Confirmation dialog should appear                    |
+
+
+Issues:
+1. Login page: Username field is accepting case-sensitive usernames 
+   example; Actual userID = Admin, Accepting userID's=admin,aDmin,aDMIN,asMin etc
+2. No Password Visibility Toggle in login page
+2. After applying filters, clicking “Reset” doesn’t always restore the default view properly.
+3. Visual design and layout differ between modules (e.g., Recruitment vs Employee List).
+
+
+
